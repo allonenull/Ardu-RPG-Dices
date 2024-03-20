@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ardu RPG</title>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./ardicon.png" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="border"></div>
+
+        <h1 class="title">Ardu RPG</h1>
+
+        <div class="input-container">
+          <div class="input-group">
+            <input
+              id="proficiency-1"
+              type="number"
+              placeholder="Perícia"
+              title="Perícia"
+            />
+
+            <input id="dice-1" type="number" placeholder="Dice" title="Dice" />
+
+            <h1 class="result" id="result-1">...</h1>
+          </div>
+
+          <div class="input-group">
+            <input
+              id="attribute-1"
+              type="number"
+              placeholder="Atributo"
+              title="Atributo"
+            />
+
+            <input id="dice-2" type="number" placeholder="Dice" title="Dice" />
+
+            <h1 class="result" id="result-2">...</h1>
+          </div>
+        </div>
+
+        <h1 class="final-result" id="final-result">...</h1>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
